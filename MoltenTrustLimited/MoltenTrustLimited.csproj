@@ -9,11 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LigerShark.WebOptimizer.Analyzers" Version="3.0.1">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.250" />
+    <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
   </ItemGroup>
 
 

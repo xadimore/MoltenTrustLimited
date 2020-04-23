@@ -11,7 +11,6 @@ html, body {
     height: 1.8rem;
     margin-left: 0.40rem;
     width: 1.8rem;
-    
     border-radius: 50%;
     text-align: center;
 }
@@ -34,53 +33,55 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: none;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: none;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 
-.site-headline{
-    font-size : 48px;
+.site-headline {
+    font-size: 48px;
     line-height: 58px;
     font-weight: 700;
-
 }
+
 .border-top {
     border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 .benefits-section {
@@ -96,7 +97,7 @@ button.accept-policy {
     border: 10px solid #F5F6FE;
 }
 
-.section-title{
+.section-title {
     font-size: 32px;
     line-height: 38px;
     font-weight: 700;
@@ -115,5 +116,3 @@ button.accept-policy {
     margin-left: -50vw;
     left: 50%;
 }
-
-
