@@ -1,0 +1,178 @@
+﻿body {
+    /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+    html, body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .list-inline-item {
+        font-size: 1.2rem;
+        height: 1.8rem;
+        margin-left: 0.40rem;
+        width: 1.8rem;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .btn {
+        background-color: #4550E6;
+    }
+
+
+
+    a.navbar-brand {
+        white-space: normal;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 800;
+        color: #252930;
+        text-align: center;
+        word-break: break-all;
+    }
+    /* Provide sufficient contrast against white background */
+    a {
+        color: #0366d6;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: none;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+    }
+    /* Sticky footer styles
+-------------------------------------------------- */
+    html {
+        font-size: 14px;
+    }
+
+    @media (min-width: 768px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
+
+    .site-headline {
+        font-size: 48px;
+        line-height: 58px;
+        font-weight: 700;
+    }
+
+    .border-top {
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .box-shadow {
+        box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    }
+
+    button.accept-policy {
+        font-size: 1rem;
+        line-height: inherit;
+    }
+
+    .benefits-section {
+        background-color: #F5F6FE;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+    }
+
+    .item {
+        background-color: white;
+        border: 10px solid #F5F6FE;
+    }
+
+    .section-title {
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 700;
+    }
+
+    .section-intro {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+    }
+
+    .icon-holder {
+        background-color: #F5F6FE;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+    }
+
+
+
+
+    @media (min-width: 768px) {
+        /* show 3 items */
+        .carousel-inner .active,
+        .carousel-inner .active + .carousel-item,
+        .carousel-inner .active + .carousel-item + .carousel-item {
+            display: block;
+        }
+
+        .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+        .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+        .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+            transition: none;
+        }
+
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+            position: relative;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+            position: absolute;
+            top: 0;
+            right: -33.3333%;
+            z-index: -1;
+            display: block;
+            visibility: visible;
+        }
+        /* left or forward direction */
+        .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+        .carousel-item-next.carousel-item-left + .carousel-item,
+        .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+        .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+            position: relative;
+            transform: translate3d(-100%, 0, 0);
+            visibility: visible;
+        }
+        /* farthest right hidden item must be abso position for animations */
+        .carousel-inner .carousel-item-prev.carousel-item-right {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            display: block;
+            visibility: visible;
+        }
+        /* right or prev direction */
+        .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+        .carousel-item-prev.carousel-item-right + .carousel-item,
+        .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+        .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+            position: relative;
+            transform: translate3d(100%, 0, 0);
+            visibility: visible;
+            display: block;
+            visibility: visible;
+        }
+    }
+}
